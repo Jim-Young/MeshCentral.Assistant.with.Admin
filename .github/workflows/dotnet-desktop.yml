@@ -43,7 +43,8 @@ on:
 
 jobs:
 
-  build:
+build:
+
     strategy:
       matrix:
         configuration: [Release]
